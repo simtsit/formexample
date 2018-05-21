@@ -9,11 +9,7 @@ import { Person } from '../person.model';
 })
 export class PersonFormComponent implements OnInit {
 
-	model = new Person();
-
-	// Uncomment this if you want to give starting values to the model (Person)
-  	//
-	// model = new Person('John', 'Doe', 'jon@doe.com','KA' );
+	model = new Person('John', 'Doe', 'jon@doe.com','KA' );
 
   constructor() { }
 
